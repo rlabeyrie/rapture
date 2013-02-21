@@ -24,7 +24,7 @@ DEBIAN_MIRROR="ftp.fr.debian.org"
 # Only packages dedicated to this version of debian will be installed.
 DEBIAN_VERSION="wheezy"
 # Architecture of your system.
-DEBIAN_ARCH="amd64"
+DEBIAN_ARCH="(amd64|all)"
 
 # Where to install packages (data files will be directly deflated in this
 # folder; this will create the usr/ directory and probably other system
